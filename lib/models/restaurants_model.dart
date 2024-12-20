@@ -1,3 +1,4 @@
+
 import 'dart:convert';
 
 List<RestaurantsModel> restaurantsModelFromJson(String str) => List<RestaurantsModel>.from(json.decode(str).map((x) => RestaurantsModel.fromJson(x)));
@@ -12,8 +13,8 @@ class RestaurantsModel {
     final List<dynamic> foods;
     final bool pickup;
     final bool delivery;
-    final String owner;
     final bool isAvailable;
+    final String owner;
     final String code;
     final String logoUrl;
     final int rating;
@@ -30,8 +31,8 @@ class RestaurantsModel {
         required this.foods,
         required this.pickup,
         required this.delivery,
-        required this.owner,
         required this.isAvailable,
+        required this.owner,
         required this.code,
         required this.logoUrl,
         required this.rating,
@@ -49,8 +50,8 @@ class RestaurantsModel {
         foods: List<dynamic>.from(json["foods"].map((x) => x)),
         pickup: json["pickup"],
         delivery: json["delivery"],
-        owner: json["owner"],
         isAvailable: json["isAvailable"],
+        owner: json["owner"],
         code: json["code"],
         logoUrl: json["logoUrl"],
         rating: json["rating"],
@@ -68,8 +69,8 @@ class RestaurantsModel {
         "foods": List<dynamic>.from(foods.map((x) => x)),
         "pickup": pickup,
         "delivery": delivery,
-        "owner": owner,
         "isAvailable": isAvailable,
+        "owner": owner,
         "code": code,
         "logoUrl": logoUrl,
         "rating": rating,

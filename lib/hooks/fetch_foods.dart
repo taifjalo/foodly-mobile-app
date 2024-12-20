@@ -4,7 +4,6 @@ import 'package:mahalna/constants/constants.dart';
 import 'package:mahalna/models/api_eror.dart';
 import 'package:mahalna/models/foods_model.dart';
 import 'package:mahalna/models/hook_models/foods_hook.dart';
-import 'package:mahalna/models/hook_models/hook_result.dart';
 import 'package:http/http.dart' as http;
 
 FetchFoods useFetchFoods(String code) {
