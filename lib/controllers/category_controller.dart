@@ -1,21 +1,20 @@
-// ignore_for_file: prefer_final_fields
-
 import 'package:get/get.dart';
 
 class CategoryController extends GetxController {
-  RxString _category = ''.obs;
+  
+  RxString category = ''.obs;
 
-  String get categoryValue => _category.value;
+  String get categoryValue => category.value;
 
-  set updateCategory(String value) {
-    _category.value = value;
+  set updateCategory(String newValue) {
+    category.value = newValue;
   }
 
-  RxString _title = ''.obs;
+  RxString title = ''.obs;
 
-  String get titleValue => _title.value;
+  String get titleValue => title.value;
 
-  set updateTitle(String value) {
-    _title.value = value;
+  set updateTitle(String newValue) {
+    title.value = newValue;
   }
 }

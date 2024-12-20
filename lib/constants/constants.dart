@@ -28,3 +28,18 @@ double height = 825.h;
 double width = 375.w;
 
 const String appBaseUrl = "http://localhost:6013";
+
+final List<String> verificationReasons = [
+  'Real-time Updates: Get instant notifications about your order status.',
+  'Direct Communication: A verified number ensures seamless communication.',
+  'Enhanced Security: Protect your account and confirm orders securely.',
+  'Effortless Rescheduling: Easily address issues with a quick call.',
+  'Exclusive Offers: Stay in the loop for special deals and promotions.'
+];
+
+//final List<String> verificationReasons = [
+//"تحديثات في الوقت الفعلي: احصل على إشعارات فورية حول حالة طلبك.",
+//"التواصل المباشر: يضمن الرقم الذي تم التحقق منه التواصل السلس.",
+//"أمان معزز: احم حسابك وأكد الطلبات بأمان.",
+//"إعادة الجدولة دون عناء: عالج المشكلات بسهولة من خلال مكالمة سريعة.",
+//"عروض حصرية: كن على اطلاع دائم بالصفقات والعروض الترويجية الخاصة."];

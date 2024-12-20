@@ -12,7 +12,7 @@ class CartPage extends StatelessWidget {
       backgroundColor: const Color(0xFF121414),
       appBar: PreferredSize(preferredSize: Size.fromHeight(130.h), child: Container(height: 130,)),
       body:SafeArea(
-        child: CustomContainer(ContainerContent: Container())) ,
+        child: CustomContainer(containerContent: Container())) ,
     );
   }
  }

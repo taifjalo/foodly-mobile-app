@@ -6,9 +6,10 @@ import 'package:mahalna/constants/constants.dart';
 import 'package:mahalna/main.dart';
 
 class CustomContainer extends StatelessWidget {
-  CustomContainer({super.key, required this.ContainerContent});
+  CustomContainer({super.key, required this.containerContent, this.color});
 
-  Widget ContainerContent;
+  Widget containerContent;
+  Color? color;
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +23,9 @@ class CustomContainer extends StatelessWidget {
         ),
         child: Container(
           width: width,
-          color: kOffWhite,
+          color: color??kOffWhite,
           child: SingleChildScrollView(
-            child: ContainerContent,
+            child: containerContent,
           ),
         ),
       ),

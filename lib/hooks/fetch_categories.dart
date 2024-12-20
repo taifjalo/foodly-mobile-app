@@ -17,7 +17,7 @@ FetchHook useFetchCategories() {
     try {
       Uri url = Uri.parse('$appBaseUrl/api/category/random');
       final response = await http.get(url);
-
+      
       if (response.statusCode == 200) {
         categoriesItems.value = categoriesModelFromJson(response.body);
       } else {

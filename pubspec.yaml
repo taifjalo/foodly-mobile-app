@@ -40,6 +40,7 @@ dependencies:
   firebase_core: ^2.24.2
   country_picker: ^2.0.23
   easy_localization: ^3.0.7
+  phone_otp_verification: ^1.0.3
 
 dev_dependencies:
   flutter_test:

@@ -15,7 +15,7 @@ class MarketsPage extends StatelessWidget {
           preferredSize: Size.fromHeight(130.h), child: const CustomaAppBar()),
       body: SafeArea(
           child: CustomContainer(
-              ContainerContent: const Column(
+              containerContent: const Column(
         children: [CategoryList()],
       ))),
     );

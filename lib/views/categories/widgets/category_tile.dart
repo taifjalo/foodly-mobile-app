@@ -1,8 +1,11 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mahalna/common/app_style.dart';
 import 'package:mahalna/common/reusable_text.dart';
 import 'package:mahalna/constants/constants.dart';
+import 'package:mahalna/controllers/category_controller.dart';
 import 'package:mahalna/models/categories.dart';
 import 'package:mahalna/views/categories/category_page.dart';
 import 'package:get/get.dart';
@@ -17,8 +20,11 @@ class CategoryTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(CategoryController());
     return ListTile(
       onTap: () {
+        controller.updateCategory = category.id;
+            controller.updateTitle = category.title;
         Get.to(() =>const CategoryPage(),
             transition: Transition.fadeIn,
             duration: const Duration(milliseconds: 900));
