@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_final_fields
+// ignore_for_file: prefer_final_fields, unused_local_variable
 
 import 'package:flutter/material.dart';
 import 'package:mahalna/constants/constants.dart';
