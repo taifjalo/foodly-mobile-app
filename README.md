@@ -1,7 +1,7 @@
 ---
-
-```
 markdown
+```
+
 # 📱 Foodly is a Flutter mobile application with MongoDB
 
 Foodly is a **Flutter mobile application** project — a multi-platform app built with Flutter that runs on Android, iOS, and desktop platforms.
@@ -9,6 +9,7 @@ Foodly is a **Flutter mobile application** project — a multi-platform app buil
 This repository currently contains the application code in the `recover-branch`. The project structure follows the official Flutter starter template, and this branch is intended as a baseline for development and recovery of earlier work.
 
 ---
+```
 
 ## 📁 Project Structure
 
