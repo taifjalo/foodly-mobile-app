@@ -1,4 +1,4 @@
-# 📱 Flutter delivery mobile applications with MongoDB 
+# 📱 Flutter delivery mobile application with MongoDB 
 
 Foodly is a **Flutter mobile application** project — a multi-platform app built with Flutter that runs on Android, iOS, and desktop platforms.
 
